@@ -194,6 +194,24 @@ address {
    
 }
 
+.thumb {
+  width: 264px;
+  height: 112px;
+  display: block;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  border: 1px solid #f4f4;
+}
+
+.ikon-imeges {
+   display: block;
+  display: flex;
+  text-align: center;
+  align-content: center;
+  padding: auto;
+}
+
 .skills-list {
    margin: 0px;
    padding-left: 0;
