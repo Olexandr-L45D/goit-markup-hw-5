@@ -124,11 +124,7 @@ address {
    width: 1440px;
    height: 600px;
    padding: 188px 0;
-<<<<<<< Updated upstream
-   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imeges/img.people-office\ 1.jpg);
-=======
-   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7)), url(../imeges/img\ people-office\ 1.jpg);
->>>>>>> Stashed changes
+   background-image: linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imeges/img1.people-office\ 1.jpg);
 }
 
 .hero-title {
