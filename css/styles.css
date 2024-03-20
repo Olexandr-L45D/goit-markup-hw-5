@@ -335,9 +335,14 @@ address {
 
 .icon-group-link {
    display: flex;
-
+   gap: 24px;
+   margin-left: 15px;
 }
 
+.icon-li-list {
+   display: block;
+   display: flex;
+}
 .icon-link {
    width: 40px;
    height: 40px;
