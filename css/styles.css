@@ -337,9 +337,19 @@ address {
 }
 
 .icon-group-link {
+   width: 232px;
+   height: 40px;
+   width: calc((100% - 24px) /4);
+   background-color: #ffffff;
+   display: block;
    display: flex;
+   align-content: flex-start;
+   flex-wrap: nowrap;
+   text-align: center;
    gap: 6px;
-   
+   padding: 10px 0px;
+
+
 }
 
 .icon-link {
@@ -350,6 +360,7 @@ address {
    display: flex;
    align-items: center;
    justify-content: center;
+   margin: 5px;
 }
 .tem-icon {
    fill: #ffffff;
