@@ -194,24 +194,22 @@ address {
    
 }
 
-.skills-icon {
-   fill: transparent;
-   
+
+.icon-link-skil {
+   width: 264px;
+   height: 112px;
+   background-color: #ffffff;
+   border: 1px solid #8E8F99;
+   border-radius: 4px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   align-content: center;
+  object-fit: none; 
 }
 
 .skills-icon {
-  width: 264px;
-  height: 112px;
-  display: block;
-  display: flex;
-  text-align: center;
-  align-content: center;
-  object-fit: none; 
-  border: 1px solid #8E8F99;
-  gap: 0px;
-  border-radius: 4px;
-  opacity: 0px;
-  
+  fill: #111111;
 
 }
 
@@ -338,8 +336,17 @@ address {
    
 }
 
+.icon-link {
+   width: 40px;
+   height: 40px;
+   background-color: #4D5AE5;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
 .tem-icon {
-   fill: transparent;
+   fill: #ffffff;
 }
 /*--Portfolio--*/
 
