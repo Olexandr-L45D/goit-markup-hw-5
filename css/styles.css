@@ -194,23 +194,27 @@ address {
    
 }
 
-.thumb {
+.skills-icon {
+   fill: transparent;
+   
+}
+
+.skills-icon {
   width: 264px;
   height: 112px;
   display: block;
   display: flex;
   text-align: center;
   align-content: center;
-  border: 1px solid #f4f4;
+  object-fit: none; 
+  border: 1px solid #8E8F99;
+  gap: 0px;
+  border-radius: 4px;
+  opacity: 0px;
+  
+
 }
 
-.ikon-imeges {
-   display: block;
-  display: flex;
-  text-align: center;
-  align-content: center;
-  padding: auto;
-}
 
 .skills-list {
    margin: 0px;
@@ -334,6 +338,9 @@ address {
    
 }
 
+.tem-icon {
+   fill: transparent;
+}
 /*--Portfolio--*/
 
 .portfolo-section {
