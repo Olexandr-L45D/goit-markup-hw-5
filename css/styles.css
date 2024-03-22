@@ -455,7 +455,6 @@ footer {
 .footer-logo-cont {
    height: 112px;
    width: 264px;
-   border: 1px solid #ffff;
    display: inline-block;
    align-content: flex-start;
 }
@@ -493,7 +492,6 @@ footer {
    height: 80px;
    padding: 0px;
    margin: 0px;
-   border: 1px solid #ffff;
    display: inline-block;
    margin-left: 200px;
    margin-bottom: 60px;
@@ -522,7 +520,7 @@ text-align: left;
 .icon-li-fot-list {
    display: block;
    display: flex;
-   
+   margin: 0px;
 
 }
 .icon-fot-link {
