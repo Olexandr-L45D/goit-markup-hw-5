@@ -452,7 +452,8 @@ footer {
 	flex-direction: column;
    margin: 0px;
    padding: 0px;
-   
+   align-items: flex-start;
+   flex-wrap: nowrap;
 }
 .footer-logo-cont {
    height: 112px;
