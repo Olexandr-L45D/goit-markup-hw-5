@@ -449,17 +449,15 @@ footer {
    width: 100%;
    box-sizing: border-box;
    display: flex;
-	flex-direction: column;
    margin: 0px;
    padding: 0px;
-   align-items: flex-start;
-   flex-wrap: nowrap;
 }
 .footer-logo-cont {
    height: 112px;
    width: 264px;
    border: 1px solid #ffff;
    display: inline-block;
+   align-content: flex-start;
 }
 
 .footer-text {
@@ -499,6 +497,7 @@ footer {
    display: inline-block;
    margin-left: 200px;
    margin-bottom: 60px;
+   align-content: flex-start;
    
 }
 
