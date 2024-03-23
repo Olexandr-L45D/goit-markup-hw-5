@@ -489,7 +489,7 @@ footer {
    height: 312px;
    padding-left: 150px;
    margin-left: 150px;
-   
+   align-items: baseline;
    box-sizing: border-box;
    display: flex;
    margin: 0px;
@@ -498,6 +498,7 @@ footer {
 .footer-logo-cont {
    height: 112px;
    width: 264px;
+   margin-right: 120px;
    display: inline-block;
    align-content: flex-start;
 }
@@ -544,7 +545,7 @@ footer {
 
 .icon-group-footer-link {
    display: flex;
-   gap: 10px;
+   gap: 16px;
    width: 100%;
    margin: auto;
    justify-content: center;
@@ -553,9 +554,10 @@ footer {
 .sab-title-footer {
 font-weight: 500;
 font-size: 16px;
-line-height: 150%;
+line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color: #FFFFFF;
+margin-bottom: 16px;
 margin: 0px;
 padding-left: 5px;
 text-align: left;
@@ -569,17 +571,22 @@ text-align: left;
 
 }
 .icon-fot-link {
-   width: 40px;
-   height: 40px;
+   width: 24px;
+   height: 24px;
    background-color: #4D5AE5; 
    border-radius: 50%;
    display: flex;
    align-items: center;
    justify-content: center;
-  
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
 
+.icon-fot-link:hover,
+.icon-fot-link:focus {
+   color: #31d0aa;
+}
+  
 .footer-icon {
    fill: transparent;
-   stroke: #ffffff;
+   stroke: #f4f4fd;
 }
