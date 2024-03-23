@@ -364,7 +364,8 @@ address {
 .icon-group-link {
    display: flex;
    gap: 24px;
-   margin-left: 15px;
+   margin: auto;
+   justify-content: center;
 }
 
 .icon-li-list {
@@ -379,11 +380,18 @@ address {
    display: flex;
    align-items: center;
    justify-content: center;
-  
+   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 0.1);
 }
+
+.icon-link:hover,
+.icon-link:focus {
+   color: #404bbf;
+}
+
 .tem-icon {
-   fill: #ffffff;
+   fill: #f4f4fd;
 }
+
 /*--Portfolio--*/
 
 .portfolo-section {
@@ -522,8 +530,8 @@ footer {
    cursor: pointer;   
 }
 .social-media-conteiner {
-   height: 112px;
-   width: 264px;
+   height: 80px;
+   width: 208px;
    padding: 0px;
    margin: 0px;
    display: inline-block;
@@ -536,8 +544,9 @@ footer {
 .icon-group-footer-link {
    display: flex;
    gap: 10px;
-   margin-left: 5px;
    width: 100%;
+   margin: auto;
+   justify-content: center;
 }
 
 .sab-title-footer {
