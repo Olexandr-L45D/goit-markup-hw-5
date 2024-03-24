@@ -491,6 +491,11 @@ address {
    position: relative;
    overflow: hidden;
 }
+
+.portfol-list-img-wrapper:hover {
+   transform: translateY(100%);
+}
+
 .overlay {
    position: absolute;
    top: 0;
