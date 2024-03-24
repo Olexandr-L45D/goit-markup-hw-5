@@ -394,7 +394,9 @@ address {
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-link:hover,
+.icon-link:hover {
+   background-color: #404bbf;
+}
 .icon-link:focus {
    background-color: #404bbf;
 }
@@ -629,12 +631,14 @@ text-align: left;
    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.icon-fot-link:hover,
+.icon-fot-link:hover {
+   background-color: #31d0aa;
+}
 .icon-fot-link:focus {
    background-color: #31d0aa;
 }
   
 .footer-icon {
-   fill: transparent;
-   stroke: #f4f4fd;
+   fill: #f4f4fd;
+   
 }
