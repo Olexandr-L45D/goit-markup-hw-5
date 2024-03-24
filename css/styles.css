@@ -492,7 +492,8 @@ address {
    overflow: hidden;
 }
 
-.portfol-list-img-wrapper:hover {
+.portfol-list-img-wrapper:hover,
+.portfol-list-img-wrapper:focus {
    transform: translateY(100%);
 }
 
@@ -502,7 +503,7 @@ address {
    left: 0;
    height: 100%;
    width: 100%;
-   color: #f4f4fd; 
+   color: #111111; 
    background-color: #4d5ae5;
    padding: 10px;
    font-size: 16px;
@@ -517,6 +518,7 @@ address {
 .portfolio-item:hover .overlay,
 .portfolio-item:focus .overlay {
    transform: translateY(100%);
+   color: #f4f4fd;
 }
 
 
