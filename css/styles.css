@@ -38,7 +38,7 @@ address {
 
 .header {
    border-bottom: 1px solid #E7E9FC;
-   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container {
@@ -146,7 +146,7 @@ address {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../imeges/img1.people-office\ 1.jpg);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img1.people-office\ 1.jpg);
    
 
 }
@@ -227,7 +227,7 @@ address {
 .icon-link-skil {
    width: 264px;
    height: 112px;
-   background-color: #ffffff;
+   background-color: #F4F4FD;
    border: 1px solid #8E8F99;
    border-radius: 4px;
    display: flex;
@@ -235,6 +235,7 @@ address {
    justify-content: center;
    align-content: center;
   object-fit: none; 
+  margin-bottom: 8px;
 }
 
 .skills-icon {
