@@ -247,20 +247,42 @@ address {
    padding-left: 0;
    display: flex;
    gap: 24px;
+   display: block;
+   display: flex;
+   align-items: center;
+   justify-content: center;
  
 }
 
 .skills-item {
-   border: 1px solid #ffff;
+   border: 1px solid #8e8f99;
+   border-radius: 4px;
+   display: block;
+   align-items: center;
+   justify-content: center;
+   height: 112px;
+   width: calc((100% - 72px) /4);
+   background-color: #f4f4fd;
+   margin-right: 24px;
+   margin-bottom: 8px;
+   padding: 0px;
+   margin: 0px;
+   
+}
+
+.skills-cont-text-item {
    display: block;
    display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 112px;
    text-align: left;
    width: calc((100% - 72px) /4);
-   height: 104px;
+   background-color: #f4f4fd;
    margin-right: 24px;
-   padding: auto;
-   margin: auto;
-   flex-direction:column;
+   padding: 0px;
+   margin: 0px;
+  
 }
 
 .skil-sabtitle {
