@@ -146,7 +146,7 @@ address {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img1.people-office\ 1.jpg);
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img1.people-office.jpg);
    
 
 }
@@ -605,7 +605,6 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
-margin: 0px;
 text-align: left;
    
 }
