@@ -31,7 +31,7 @@ img {
    max-width: 100%;
    height: auto;
 }
-
+/*
 address {
    font-style: normal;
 }
@@ -135,10 +135,10 @@ address {
 .address-link:focus {
   color: #404BBF;
 }
-
+*/
 /*---Hero---*/
 
-.hero {
+/*--.hero {
    background: #2e2f42;
    max-width: 1440px;
    height: 600px;
@@ -190,14 +190,21 @@ address {
 .hero-buy-button:hover,
 .hero-buy-button:focus {
    color: blue;
-}
+} */
 
 /*--Skill--*/
 
 /*---Vegetables----*/
+.container {
+   min-width: 320px; 
+   padding: 0 15px;
+   margin: 0 auto;
+}
 
 .vegetables-section {
-   padding: 96px 0px;  
+   background-color: #7a3145;
+   padding: 80px 20px;
+   min-width: 320px; 
 }
 
 .vegetables-title {
@@ -205,18 +212,19 @@ address {
    font-size: 48px;
    line-height: 1.04;
    letter-spacing: -0.01em;
-   text-transform: uppercase;
-   color: var(--main-text);
-   color: rgba(251, 251, 251, 0.3);
+   color: #fbfbfb;
+   /*text-transform: uppercase;
+   color: rgba(251, 251, 251, 0.3);*/
    text-align: left;
-   margin-bottom: 20px;  
+   margin-bottom: 20px; 
+   max-width: 335px; 
 }
 
 .vegetables-paragraf {
    font-weight: 500;
    font-size: 14px;
    line-height: 1.3;
-   color: var(--main-text);
+   color: #fbfbfb;
 }
 
 .vegetables-list {
@@ -249,7 +257,7 @@ address {
    font-size: 28px;
    line-height: 1.0;
    letter-spacing: -0.01em;
-   color: var(--background-2);
+   color: #7a3145;
    margin-bottom: 12px; 
    text-align: left; 
 }
@@ -260,7 +268,7 @@ address {
    line-height: 129%;
    letter-spacing: -0.01em;
    text-transform: uppercase;
-   color: var(--text);
+   color: #141414;
    text-align: left; 
     
 }
