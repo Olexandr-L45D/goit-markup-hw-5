@@ -213,11 +213,14 @@ address {
    line-height: 1.04;
    letter-spacing: -0.01em;
    color: #fbfbfb;
-   /*text-transform: uppercase;
-   color: rgba(251, 251, 251, 0.3);*/
+   text-transform: uppercase;
    text-align: left;
    margin-bottom: 20px; 
    max-width: 335px; 
+}
+
+.title-transform-color {
+   color: rgba(251, 251, 251, 0.3);
 }
 
 .vegetables-paragraf {
@@ -246,12 +249,10 @@ address {
 }
 
 .vegetables-cont-text {
-   margin-left: 0px;
-   margin-top: 1px;
-   padding: 32px 16px;
+   margin: 0 auto;
+   padding: 0px;
    text-align: left;
-   border: 1px solid #e7e9fc;
-   border-top: none;
+   
 }
 
 .vegetables-sabtitle {
@@ -269,7 +270,6 @@ address {
    font-size: 14px;
    line-height: 129%;
    letter-spacing: -0.01em;
-   text-transform: uppercase;
    color: #141414;
    text-align: left; 
     
@@ -279,6 +279,7 @@ address {
    display: flex;
    flex-wrap: wrap;
    gap: 0px 0px;
+   text-align: center;
 }
 
 .vegetables-list-img-wrapper picture {
@@ -302,6 +303,19 @@ address {
    padding: 100px 0px;
    }
 
+   .vegetables-title {
+      margin-bottom: 50px;
+      font-size: 64px;
+      line-height: 1.0;
+   }
+
+   .vegetables-paragraf {
+      margin-bottom: 50px;
+      padding-right: 110px;
+      font-size: 16px;
+      line-height: 1.25;
+   }
+
    .vegetables-list {
       flex-direction:row;
       gap: 28px 20px;
@@ -312,30 +326,43 @@ address {
       padding: 0px;
    }
    
+   .vegetables-cont-text {
+      padding-top: 32px;
+      padding-left: 30px;
+      padding-bottom: 10px;
+   }
+
+   .vegetables-imeges {
+      padding: 0px 30px 32px 30px;
+   }
+   
    }
 
    @media screen and (min-width: 1280px) {
    .container {
-      width: 1280px;
+      width: 1280px; 
    } 
 
-.vegetables-list {
-   padding-left: 0px;
-   margin: 0;
+   .vegetables-section {
+      padding: 100px 0;
+      
+   }
+
+   .vegetables-list {
    display: flex;
    flex-wrap: wrap;
    column-gap: 28px;
    row-gap: 21px;  
-}
+  }
  
-.vegetables-item {
+  .vegetables-item {
    width: calc((100% - 42px) /3);
    margin-left: 0px;
-}
+  }
 
-.vegetables-list-img-wrapper picture {
+  .vegetables-list-img-wrapper picture {
    width: unset;
-}
+  }
 
 .vegetables-cont-text {
    
