@@ -195,6 +195,7 @@ address {
 /*--Skill--*/
 
 /*---Vegetables----*/
+
 .container {
    width: 320px; 
    padding: 0 15px;
@@ -311,7 +312,7 @@ address {
 
    .vegetables-paragraf {
       margin-bottom: 50px;
-      padding-right: 110px;
+      max-width: 626px;
       font-size: 16px;
       line-height: 1.25;
    }
