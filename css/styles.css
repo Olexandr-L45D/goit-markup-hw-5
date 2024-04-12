@@ -197,9 +197,11 @@ address {
 /*---Vegetables----*/
 
 .container {
-   width: 320px; 
+   min-width: 320px; 
    padding: 0 15px;
    margin: 0 auto;
+   max-width: 1800px;
+   align-items: center;
 }
 
 .vegetables-section {
@@ -235,9 +237,9 @@ address {
 
 .vegetables-list {
    display: flex;
-   flex-wrap: wrap;
    gap: 20px;
    flex-direction: column;
+   flex-wrap: wrap;
    align-items: center;
 }
 
@@ -283,13 +285,9 @@ address {
    text-align: center;
 }
 
-.vegetables-list-img-wrapper picture {
-     
-}
-
 .vegetables-imeges {
    display: block;
-   max-width: 100%;
+   width: 100%;
    height: auto;
 }
 
@@ -325,11 +323,12 @@ address {
 
    .vegetables-list {
       flex-direction:row;
+      flex-wrap: wrap;
       gap: 28px 20px;
    }
 
    .vegetables-item {
-      width: calc((100% - 20px) /2);
+      width: calc((100% - 20px) / 2);
       padding: 0px;
    }
    
@@ -345,33 +344,27 @@ address {
    
    }
 
-   @media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) {
    .container {
       width: 1280px; 
    } 
 
    .vegetables-section {
-      padding: 100px 0;
-      
+      padding: 100px 0;  
    }
 
    .vegetables-list {
-   display: flex;
+   flex-direction:row;
    flex-wrap: wrap;
    column-gap: 28px;
    row-gap: 21px;  
   }
  
   .vegetables-item {
-   width: calc((100% - 42px) /3);
-   margin-left: 0px;
-  }
-
-  .vegetables-list-img-wrapper picture {
+   width: calc((100% - 42px) / 3);
    
   }
-
-}
+ }
 
 /*--Footer--*/
 /*
