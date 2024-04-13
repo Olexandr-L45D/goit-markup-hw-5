@@ -193,6 +193,107 @@ address {
 } */
 
 /*--Skill--*/
+/*---Section image & How it works---*/
+
+.container {
+   min-width: 320px; 
+   padding: 0 15px;
+   margin: 0 auto;
+   max-width: 1280px;
+   align-items: center;
+}
+
+.image-how-it-works {
+   padding: 40px 20px;
+   background: #7a3145;
+   border-radius: 30px;
+   min-width: 320px;
+   max-width: 375px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+   rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleMob1x.jpg);
+}
+
+
+@media screen and (min-device-pixel-ratio: 2) and (max-width: 375px),
+  screen and (min-resolution: 192dpi) and (max-width: 375px),
+  screen and (min-resolution: 2dppx) and (max-width: 375px) {
+   .image-how-it-works {
+   background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+   rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleMob2x.jpg);
+  }
+}
+
+.image-ho-work-container {
+   align-items: center;
+   text-align: center;
+}
+
+/* mob */
+
+@media screen and (min-width: 375px) {
+   .image-how-it-works {
+      padding: 40px 20px;
+      max-width: 768px;
+      background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleMob1x.jpg);
+   }
+ 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 375px), 
+screen and (min-resolution: 192dpi) and (min-width: 375px), 
+screen and (min-resolution: 2dppx) and (min-width: 375px){
+   .image-how-it-works {
+      background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleMob2x.jpg);
+
+   }
+}
+}
+
+/* Tablet */
+
+
+@media screen and (min-width: 768px) {
+   .image-how-it-works {
+      max-width: 1280px;
+      padding: 100px 64px;
+      background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleTablet1x.jpg);
+   }
+ 
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), 
+screen and (min-resolution: 192dpi) and (min-width: 768px), 
+screen and (min-resolution: 2dppx) and (min-width: 768px){
+   .image-how-it-works {
+      background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleTablet2x.jpg);
+
+   }
+}
+}
+
+/* Desctop */
+
+@media screen and (min-width: 768px) {
+   .image-how-it-works { 
+      padding: 100px;
+      max-width: 630px;
+      height: 759px;
+      background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+      rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleTablet1x.jpg);
+   }
+   @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), 
+   screen and (min-resolution: 192dpi) and (min-width: 768px), 
+   screen and (min-resolution: 2dppx) and (min-width: 768px){
+      .image-how-it-works {
+         background-image: linear-gradient(rgba(20, 20, 20, 0.3),
+         rgba(20, 20, 20, 0.3)), url(../images-work/imgRectangleTablet2x.jpg);
+   
+      }
+   }
+}
 
 /*---Vegetables----*/
 
@@ -200,7 +301,7 @@ address {
    min-width: 320px; 
    padding: 0 15px;
    margin: 0 auto;
-   max-width: 1800px;
+   max-width: 1280px;
    align-items: center;
 }
 
