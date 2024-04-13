@@ -205,7 +205,51 @@ address {
 
 .image-how-it-works {
    padding: 40px 20px;
-   background: #7a3145;
+   background-color: #7a3145;
+   min-width: 320px;
+   max-width: 375px;
+}
+
+
+.how-it-works-images {
+   display: block;
+   width: 100%;
+   height: auto;
+   border-radius: 30px;
+}
+
+@media screen and (min-width: 375px) {
+   .container {
+      width: 375px;
+   }
+}
+
+@media screen and (min-width: 768px) {
+   .container {
+      width: 768px;
+   }
+   
+   .image-how-it-works {  
+   text-align: center;
+   padding: 100px 64px;
+   }
+
+}
+      @media screen and (min-width: 1280px) {
+         .container {
+            width: 1280px; 
+         } 
+      
+      .image-how-it-works {  
+      display:flex;
+      text-align: center;
+      padding: 100px;
+      }
+   }
+
+/*.image-how-it-works {
+   padding: 40px 20px;
+   background-color: #7a3145;
    border-radius: 30px;
    min-width: 320px;
    max-width: 375px;
@@ -231,7 +275,7 @@ address {
    text-align: center;
 }
 
-/* mob */
+/* mob 
 
 @media screen and (min-width: 375px) {
    .image-how-it-works {
@@ -250,9 +294,9 @@ screen and (min-resolution: 2dppx) and (min-width: 375px){
 
    }
 }
-}
+}*/
 
-/* Tablet */
+/* Tablet 
 
 
 @media screen and (min-width: 768px) {
@@ -272,9 +316,9 @@ screen and (min-resolution: 2dppx) and (min-width: 768px){
 
    }
 }
-}
+}*/
 
-/* Desctop */
+/* Desctop 
 
 @media screen and (min-width: 768px) {
    .image-how-it-works { 
@@ -293,7 +337,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px){
    
       }
    }
-}
+}*/
 
 /*---Vegetables----*/
 
@@ -386,7 +430,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px){
    text-align: center;
 }
 
-.vegetables-imeges {
+.vegetables-images {
    display: block;
    width: 100%;
    height: auto;
@@ -439,7 +483,7 @@ screen and (min-resolution: 2dppx) and (min-width: 768px){
       padding-bottom: 10px;
    }
 
-   .vegetables-imeges {
+   .vegetables-images {
       padding: 0px 30px 32px 30px;
    }
    
