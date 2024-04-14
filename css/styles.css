@@ -212,7 +212,7 @@ image {
    padding: 40px 10px;
    background-color: #7a3145;
    min-width: 320px;
-   
+   align-items: center;
 }
 
 
@@ -254,6 +254,7 @@ image {
       .image-works-section {  
       text-align: center;
       padding: 100px;
+      width: 650px;
       } 
    }
 
@@ -261,7 +262,7 @@ image {
 
    .container {
       min-width: 320px; 
-      padding: 0 15px;
+      padding: 0 5px;
       margin: 0 auto;
       max-width: 1280px;
       align-items: center;
@@ -271,6 +272,7 @@ image {
       background-color: #576f35;
       padding: 80px 20px;
       min-width: 320px; 
+      align-items: center;
    }
    
    .how-works-title {
