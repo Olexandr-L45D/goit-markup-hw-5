@@ -194,6 +194,9 @@ address {
 
 /*--Skill--*/
 /*---Section image & How it works---*/
+.image-works-section-general {
+
+}
 
 image {
    display: block;
@@ -253,11 +256,15 @@ image {
 
       .image-works-section {  
       text-align: center;
-      padding: 100px;
+      padding: 100px 0;
       width: 650px;
       } 
       .how-it-works-images {
-         width: 100%;
+         max-width: 640px;
+      }
+      .image-works-section-general {
+        display: flex;
+        column-gap: 50px;
       }
    }
 
@@ -316,7 +323,6 @@ image {
       display: flex;
       border-radius: 15px;
       padding: 20px;
-      /*width: 335px;*/
       background-color: #fbfbfb;
       list-style: none;
       counter-increment: my-counter;
@@ -368,21 +374,38 @@ image {
       
       .how-works-section {  
       display:flex;
-      text-align: center;
-      padding: 100px 159px;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 100px;
+      }
+
+      .container-how-work {
+         display:flex;
+         flex-direction: column;
+         flex-wrap: wrap;
+         align-items: center;
+         
+      }
+
+      .container-text {
+         align-items: center;
+         max-width: 450px;
       }
    
       .how-works-title {
          font-weight: 600;
          font-size: 32px;
          line-height: 1.0;
+         align-items: center;
+         max-width: 450px;
       }
    
       .how-works-paragraf {
          margin-bottom: 50px;
-         max-width: 626px;
+         max-width: 450px;
          font-size: 16px;
          line-height: 1.25;
+         align-items: center;
       }
    
       .how-works-list {
@@ -403,8 +426,8 @@ image {
       } 
       
       .how-works-section {
-         padding: 100px 100px 160px 100px; 
-         width: 650px; 
+         padding: 100px 0; 
+         width: 700px; 
       }
    
       .how-works-list { 
@@ -414,6 +437,12 @@ image {
      .how-works-item {
       padding: 12px 25px 12px 24px
      }
+     .image-works-section-general {
+      display: flex;
+      background-color: #7a3145;
+      column-gap: 50px;
+    }
+
     }
    
 
