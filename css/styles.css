@@ -256,6 +256,9 @@ image {
       padding: 100px;
       width: 650px;
       } 
+      .how-it-works-images {
+         width: 100%;
+      }
    }
 
 /*---How it works--*/
@@ -306,35 +309,37 @@ image {
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
+      counter-reset: my-counter;
    }
 
    .how-works-item {
       display: flex;
       border-radius: 15px;
-      padding: 12px 27px 12px 24px;
-      width: 335px;
+      padding: 20px;
+      /*width: 335px;*/
       background-color: #fbfbfb;
+      list-style: none;
+      counter-increment: my-counter;
+      margin-bottom: 0.5em;
+      margin-right: 10px;
+   }
+   .how-works-item::before {
+     content: counter(my-counter);
+     margin-right: 0.5em;
+     font-weight: bold;
    }
    
    .button-icon-works {
       border-radius: 50%;
       width: 52px;
       height: 52px;
-      padding: 7px 20px 7px 20px;
+      padding: 7px 20px;
       background-color: #7a3145;
       text-align: center;
       align-items: center;
-      margin-right: 24px;
+      margin-right: 10px;
    }
    
-   .button-icon-works-svg {
-      font-weight: 600;
-      font-size: 20px;
-      line-height: 1.0;
-      letter-spacing: -0.02em;
-      color: #fbfbfb;
-   }
-
    .how-works-item-text {
       font-weight: 500;
       font-size: 12px;
@@ -573,8 +578,10 @@ image {
    .vegetables-list {
    flex-direction:row;
    flex-wrap: wrap;
-   column-gap: 28px;
-   row-gap: 21px;  
+   column-gap: 21px;
+   row-gap: 28px
+   /*column-gap: 28px;
+   row-gap: 21px;*/  
   }
  
   .vegetables-item {
