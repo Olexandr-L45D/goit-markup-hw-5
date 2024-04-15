@@ -228,13 +228,16 @@ image {
 .how-it-works-images {
    border-radius: 30px;
    display: block;
-   width: 100%;
+   width: 300px;
    height: auto;
 }
 
 @media screen and (min-width: 375px) {
    .container {
       width: 375px;
+   }
+   .how-it-works-images {
+      min-width: 355px
    }
 }
 
@@ -246,6 +249,10 @@ image {
    .image-works-section {  
    text-align: center;
    padding: 100px 64px;
+   }
+
+   .how-it-works-images {
+      width: 640px;
    }
 
 }
@@ -280,7 +287,7 @@ image {
    
    .how-works-section {
       background-color: #576f35;
-      padding: 80px 20px;
+      padding: 80px 0px;
       min-width: 320px; 
       align-items: center;
    }
@@ -312,23 +319,29 @@ image {
    
    .how-works-list {
       display: flex;
-      gap: 20px;
+      gap: 20px 0px;
       flex-direction: column;
       flex-wrap: wrap;
       align-items: center;
       counter-reset: my-counter;
       list-style: none;
+      
+   }
+   
+   .container-text {
+      width: 280px;
+      padding-left: 20px;
    }
 
    .how-works-item {
       display: flex;
       border-radius: 15px;
-      padding: 20px;
+      padding: 20px 5px 20px 5px;
       background-color: #fbfbfb;
       list-style: none;
       counter-increment: my-counter;
       margin-bottom: 0.5em;
-      margin-right: 10px;
+      width: 280px;
    }
    .how-works-list::before(css counter) {
      content: counter(my-counter);
@@ -343,13 +356,15 @@ image {
       line-height: 1.0;
       letter-spacing: -0.02em;
       color: #fbfbfb;
-      width: 52px;
-      height: 52px;
-      padding: 7px 20px;
+      box-shadow: 0px 0px 0px 5px rgba(122, 49, 69, 0.3);
+      width: 50px;
+      height: 50px;
+      padding: 6px 19px;
       background-color: #7a3145;
       text-align: center;
       align-items: center;
       margin-right: 10px;
+      
    }
    
    .how-works-item-text {
@@ -370,6 +385,12 @@ image {
    @media screen and (min-width: 375px) {
       .container {
          width: 375px;
+      }
+      .container-text {
+         width: 335px;
+      }
+      .how-works-item {
+         width: 335px;
       }
    }
    
@@ -395,7 +416,8 @@ image {
 
       .container-text {
          align-items: center;
-         max-width: 450px;
+         width: 450px;
+         padding: 0px;
       }
    
       .how-works-title {
@@ -403,12 +425,12 @@ image {
          font-size: 32px;
          line-height: 1.0;
          align-items: center;
-         max-width: 450px;
+         width: 450px;
       }
    
       .how-works-paragraf {
          margin-bottom: 50px;
-         max-width: 450px;
+         width: 450px;
          font-size: 16px;
          line-height: 1.25;
          align-items: center;
@@ -439,10 +461,14 @@ image {
       .how-works-list { 
       
      }
-    
+     .container-text {
+      width: 450px;
+   }
      .how-works-item {
-      padding: 12px 25px 12px 24px
+      padding: 12px 25px 12px 24px;
+      width: 450px;
      }
+
      .image-works-section-general {
       display: flex;
       background-color: #7a3145;
@@ -464,7 +490,7 @@ image {
 
 .vegetables-section {
    background-color: #7a3145;
-   padding: 80px 20px;
+   padding: 80px 0px;
    min-width: 320px; 
 }
 
@@ -506,7 +532,7 @@ image {
 
 .vegetables-item {
    border-radius: 40px;
-   padding: 32px 26px;
+   padding: 32px 26px 32px 0px; 
    background-color: #fbfbfb;
    text-align: center;
 }
@@ -526,6 +552,7 @@ image {
    color: #7a3145;
    margin-bottom: 12px; 
    text-align: left; 
+   padding-left: 10px;
 }
 
 .vegetables-item-text {
@@ -535,7 +562,7 @@ image {
    letter-spacing: -0.01em;
    color: #141414;
    text-align: left; 
-    
+   padding-left: 10px;
 }
 
 .vegetables-list-img-wrapper {
@@ -565,7 +592,7 @@ image {
    .vegetables-section {  
    display:flex;
    text-align: center;
-   padding: 100px 0px;
+   padding: 100px 64px;
    }
 
    .vegetables-title {
@@ -610,7 +637,7 @@ image {
    } 
 
    .vegetables-section {
-      padding: 100px 0;  
+      padding: 100px;  
    }
 
    .vegetables-list {
