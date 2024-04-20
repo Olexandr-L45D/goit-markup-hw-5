@@ -338,7 +338,7 @@ address {
    background-position: center;
    background-size: cover;
    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)), url(../images/Dark-bgMob1x.jpg);
+         rgba(46, 47, 66, 0.7)), url(../images-work/pexels-peterorpeteFich\ \(1\).jpg);
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -401,7 +401,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
       max-width: 1158px;
       height: 436px;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)), url(../images/Dark-bgHeroPlanchet1x.jpg);
+            rgba(46, 47, 66, 0.7)), url(../images-work/pexels-peterorpeteFich\ \(1\).jpg);
    }
 
    @media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
@@ -431,7 +431,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
       background: #2e2f42;
       max-width: 1440px;
       background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
+            rgba(46, 47, 66, 0.7)), url(../images-work/pexels-peterorpeteFich\ \(1\).jpg);
    }
 
    @media screen and (min-device-pixel-ratio: 2) and (min-width: 1158px),
