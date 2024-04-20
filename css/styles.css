@@ -71,6 +71,11 @@ address {
 
 }
 
+.tel-header {
+   padding: 10px;
+   
+}
+
 .navigation {
    display: flex;
    align-items: center;
@@ -261,6 +266,7 @@ address {
       line-height: 1.5;
       letter-spacing: 0.02em;
       padding: 24px 0;
+      padding-left: 10px;
       display: block;
       transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    }
@@ -338,7 +344,7 @@ address {
    background-position: center;
    background-size: cover;
    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-         rgba(46, 47, 66, 0.7)), url(../images-work/pexels-peterorpeteFich\ \(1\).jpg);
+         rgba(46, 47, 66, 0.7)), url(../images-work/pexelFichfhonHero.jpg);
 }
 
 @media screen and (min-device-pixel-ratio: 2) and (max-width: 767px),
@@ -380,7 +386,7 @@ screen and (min-resolution: 2dppx) and (max-width: 767px) {
    min-width: 169px;
    height: 56px;
    top: 72px;
-   padding: 16px, 32px, 16px, 32px;
+   padding: 16px, 20px, 16px, 20px;
    border: none;
    border-radius: 4px;
    gap: 10px;
@@ -626,9 +632,9 @@ image {
    letter-spacing: -0.02em;
    color: #fbfbfb;
    box-shadow: 0px 0px 0px 5px rgba(122, 49, 69, 0.3);
-   width: 50px;
-   height: 50px;
-   padding: 6px 19px;
+   width: 45px;
+   height: 45px;
+   padding: 4px 16px;
    background-color: #7a3145;
    text-align: center;
    align-items: center;
@@ -747,7 +753,7 @@ image {
 }
 
 
-/*---Vegetables----*/
+/*---Pac-Rol----*/
 
 .container {
    min-width: 320px;
@@ -801,7 +807,7 @@ image {
 
 .vegetables-item {
    border-radius: 40px;
-   padding: 32px 26px 32px 0px;
+   padding: 35px 20px 32px 20px;
    background-color: #fbfbfb;
    text-align: center;
 }
@@ -927,6 +933,16 @@ image {
 footer {
    background: #2e2f42;
    padding: 96px 0;
+}
+footer {
+   padding: 96px 0px;
+   background: #2e2f42;
+   max-width: 768px;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+         rgba(46, 47, 66, 0.7)), url(../images-work/pexels-peteroFichFoot.jpg);
 }
 
 .footer-container {
