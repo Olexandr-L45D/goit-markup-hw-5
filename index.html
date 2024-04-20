@@ -1,276 +1,468 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>   
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-            rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-            integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./css/styles.css">
-           
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+        integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+
 </head>
+
 <body>
-<!--header class="header">
-       <div class="container header-container">
-            
-                <nav class="navigation">
-                    <a class="logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
-        
-                    <ul class="nav-list">
-                        <li><a class="nav-link current" href="">Studio</a></li>
-                        <li><a class="nav-link" href="">Portfolio</a></li>
-                        <li><a class="nav-link" href="">Contacts</a></li>
+    <header class="header">
+        <div class="container header-container">
+
+            <nav class="navigation">
+                <a class="logo" href="./index.html">Web<span class="logo-part">Snack</span></a>
+
+                <ul class="nav-list">
+                    <li><a class="nav-link current" href="">Рибні снеки</a></li>
+                    <li><a class="nav-link" href="">М,ясні снеки</a></li>
+                    <li><a class="nav-link" href="">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <address class="address">
+                <ul class="address-list">
+                    <li><a class="address-link"
+                            href="mailto:litvinenko1978aleks@gmail.com">litvinenko1978aleks@gmail.com</a></li>
+                    <li><a class="address-link" href="tel:+380631705885">+38 (063) 170-58-85</a></li>
+                </ul>
+            </address>
+            <button class="open-menu-btn">
+                <svg width="24" height="24">
+                    <use href="./images/icons.svg#icon-Group"></use>
+                </svg>
+            </button>
+        </div>
+        <!--Headr-mob-menu-->
+
+        <div class="mob-menu">
+            <div>
+                <button type="button" class="close-menu-btn"><svg class="button-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-VectorX"></use>
+                    </svg></button>
+                <nav class="mob-menu-nav">
+                    <ul class="mob-menu-nav-list">
+                        <li class="mob-menu-item"><a class="mob-nav-link" href=""><span
+                                    class="logo-blu-color">Snack</span></a></li>
+                        <li class="mob-menu-item"><a class="mob-nav-link" href="">Portfolio</a></li>
+                        <li class="mob-menu-item"><a class="mob-nav-link" href="">Contacts</a></li>
                     </ul>
                 </nav>
-        
-                <address class="address">
-                    <ul class="address-list">
-                        <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                        <li><a class="address-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
-                    </ul>   
-               </address>    
-       </div>
- 
-</!--header>
+            </div>
+            <ul class="mob-address-list">
+                <li class="mob-menu-item-contact"><a class="mob-address-link"
+                        href="mailto:litvinenko1978aleks@gmail.com">
+                        <span class="mob-email-color-blu">litvinenko1978aleks@gmail.com</span>
+                    </a></li>
+                <li class="mob-menu-item-contact"><a class="mob-address-link" href="tel:+380631705885">+38 (063)
+                        170-58-85</a></li>
+            </ul>
+            <ul class="mob-menu-icon-link">
 
- <!--Hero-->
+                <li class="mob-icon-li-list">
+                    <a class="mob-icon-link" href="icon-instagram">
+                        <svg class="mob-tem-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-icon-li-list">
+                    <a class="mob-icon-link" href="icon-twitter">
+                        <svg class="mob-tem-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-icon-li-list">
+                    <a class="mob-icon-link" href="icon-Fesbok">
+                        <svg class="mob-tem-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-Fes-Vector"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="mob-icon-li-list">
+                    <a class="mob-icon-link" href="icon-Laikedin">
+                        <svg class="mob-tem-icon" width="16" height="16">
+                            <use href="./images/icons.svg#icon-linkedin1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
 
-<main>
-   
- <!--section class="hero">
-          <div class="container hro-container">
-                <h1 class="hero-title">Effective Solutions for Your Business</h1>
-                
-                <button class="hero-buy-button" type="button">Order Service</button>       
-          </div>
- </!--section>
+    <!--Hero-->
 
-     <!--Skill-->
+    <main>
 
-  <!--Section IMAGES & How it works-->
- <section class="image-works-section-general">
-     
-           <div class="image-works-section">
-                  <div class="container"> 
-                   <div class="image-ho-work-container">
-                        <picture>
-                            <source media="(min-width: 1280px)" srcset="./images-work/imgRectangleDasctop1x.jpg, ./images-work/imgRectangleDasctop2x.jpg" type="image/jpg">
-                            <source media="(min-width: 768px)" srcset="./images-work/imgRectangleTablet1x.jpg, ./images-work/imgRectangleTablet2x.jpg" type="image/jpg">
-                            <source media="(max-width: 767px)" srcset="./images-work/imgRectangleMob1x.jpg, ./images-work/imgRectangleMob2x.jpg" type="image/jpg">
-                            <img src="./images-work/imgRectangleDasctop1x.jpg" alt="imageHowitworks" width="640" height="640" class="how-it-works-images">
-                          </picture>   
-                   </div> 
-                  </div>
-           </div>
-          
-             <!--How it works-->
-           
-             <div class="how-works-section">
-             
+        <section class="hero">
+            <div class="container hro-container">
+                <h1 class="hero-title">Упаковка рибних та мясних снеків</h1>
+
+                <button class="hero-buy-button" type="button">Service</button>
+            </div>
+        </section>
+
+
+        <!--Section IMAGES &Fechss-->
+        <section class="image-works-section-general">
+
+            <div class="image-works-section">
                 <div class="container">
-                  <div class="container-how-work">
-                     <div class="container-text">
-                         <h2 class="how-works-title">To order your 
-                            <span class="title-transf-color-works">vegetable</span>
-                             basket, simply follow these 
-                            <span class="title-transf-color-works">easy steps</span>
-                        </h2>
-                
-                         <p class="how-works-paragraf">Our baskets are assembled with care and delivered straight to your doorstep, so you 
-                            can enjoy the taste of fresh fruit without ever leaving your home.</p>
-                
-                     </div>
-                        <ol class="how-works-list">                 
+                    <div class="image-ho-work-container">
+                        <picture>
+                            <source media="(min-width: 1280px)"
+                                srcset="./images-work/imgRectangleDasctop1x.jpg, ./images-work/imgRectangleDasctop2x.jpg"
+                                type="image/jpg">
+                            <source media="(min-width: 768px)"
+                                srcset="./images-work/imgRectangleTablet1x.jpg, ./images-work/imgRectangleTablet2x.jpg"
+                                type="image/jpg">
+                            <source media="(max-width: 767px)"
+                                srcset="./images-work/imgRectangleMob1x.jpg, ./images-work/imgRectangleMob2x.jpg"
+                                type="image/jpg">
+                            <img src="./images-work/imgRectangleDasctop1x.jpg" alt="imageHowitworks" width="640"
+                                height="640" class="how-it-works-images">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+
+            <!----Snack-img--works-->
+
+            <div class="how-works-section">
+
+                <div class="container">
+                    <div class="container-how-work">
+                        <div class="container-text">
+                            <h2 class="how-works-title">for your
+                                <span class="title-transf-color-works">Snack</span>
+                                найкраща закуска
+                                <span class="title-transf-color-works">також перекус</span>
+                            </h2>
+
+                            <p class="how-works-paragraf">Приваблива поліпропіленова ярка та різнокольорова упаковка
+                                різних рибок
+                                та м'яса задовільняє вимоги в сфері торгівлі снеками та санітарної гігієни</p>
+
+                        </div>
+                        <ol class="how-works-list">
                             <li class="how-works-item">
-                             <button type="button" class="button-icon-works">
-                             1
-                             </button>                           
-                                 <p class="how-works-item-text">Just choose 
-                                    <span class="transf-color-work-text">the vegetable</span>
-                                      you want to order by clicking on the checkboxes <span class="transf-color-work-text">next to it.</span></p>                                                       
+                                <button type="button" class="button-icon-works">
+                                    1
+                                </button>
+                                <p class="how-works-item-text">упаковка під морскі сушені рибки
+                                    <span class="transf-color-work-text">Snack</span>
+                                    marine fich <span class="transf-color-work-text">20 and 40 gr
+                                    </span>
+                                </p>
                             </li>
                             <li class="how-works-item">
-                             <button type="button" class="button-icon-works">
-                             2
-                             </button>                           
-                                 <p class="how-works-item-text">Click on <span class="transf-color-work-text">the basket</span> and fill out the form.</p>                                                       
+                                <button type="button" class="button-icon-works">
+                                    2
+                                </button>
+                                <p class="how-works-item-text">упаковка під річні сушені рибки
+                                    <span class="transf-color-work-text">Snack</span>
+                                    annual fish <span class="transf-color-work-text">20 and 40 gr
+                                    </span>
+                                </p>
                             </li>
                             <li class="how-works-item">
-                             <button type="button" class="button-icon-works">
-                             3
-                             </button>                           
-                                 <p class="how-works-item-text">Sit back and relax! Your <span class="transf-color-work-text">fresh vegetables</span> basket will be delivered.</p>                                                       
-                            </li>             
-                    </ol>
-              </div>
+                                <button type="button" class="button-icon-works">
+                                    3
+                                </button>
+                                <p class="how-works-item-text">упаковка під м'ясні делікатеси
+                                    <span class="transf-color-work-text">Snack</span>
+                                    meat delicacies <span class="transf-color-work-text">20 and 40 gr
+                                    </span>
+                                </p>
+                            </li>
+                        </ol>
+                    </div>
 
-               </div>
-               </div>
- </section>
-     <!--Vegetables-->
-   
-    <section class="vegetables-section">
-     
-        <div class="container">
-         <h2 class="vegetables-title">organic 
-            <span class="title-transform-color">vegetables</span>
-        </h2>
+                </div>
+            </div>
+        </section>
+        <!--Snack-img-->
 
-         <p class="vegetables-paragraf">Our organic vegetables are hand-picked from local farms and delivered straight to your doorstep, 
-            ensuring that you get the freshest and most nutritious produce possible.</p>
+        <section class="vegetables-section">
 
-               <ul class="vegetables-list">                 
-                       <li class="vegetables-item">
+            <div class="container">
+                <h2 class="vegetables-title">for organic food
+                    <span class="title-transform-color">Snack-закуски</span>
+                </h2>
+
+                <p class="vegetables-paragraf">most nutritious produce possible</p>
+
+                <ul class="vegetables-list">
+                    <li class="vegetables-item">
                         <div class="vegetables-cont-text">
-                            <h3 class="vegetables-sabtitle">eggplant</h3>
-                            <p class="vegetables-item-text">60 UAH / kg</p>                
-                       </div>
-                          <div class="vegetables-list-img-wrapper">
-                             <picture>
-                               <source media="(min-width: 1280px)" srcset="./images-vegetables/carrotEggplantDecktop1x.jpg, ./images-vegetables/carrotEggplantDecktop2x.jpg" type="image/jpg">
-                               <source media="(min-width: 768px)" srcset="./images-vegetables/carrotEggplantTablet1x.jpg, ./images-vegetables/carrotEggplantTablet2x.jpg" type="image/jpg">
-                               <source media="(max-width: 767px)" srcset="./images-vegetables/carrotEggplantMobil1x.jpg, ./images-vegetables/carrotEggplantMobil2x.jpg" type="image/jpg">
-                               <img src="./images-vegetables/carrotEggplantDecktop.jpg" alt="eggplant" width="282" height="243" class="vegetables-images">
-                             </picture>
-                          </div>                        
-                       </li>
-                       <li class="vegetables-item">
+                            <h3 class="vegetables-sabtitle">Блок(bloc)-marine fich</h3>
+                            <p class="vegetables-item-text">150 грн / kg</p>
+                        </div>
+                        <div class="vegetables-list-img-wrapper">
+                            <picture>
+                                <source media="(min-width: 1280px)"
+                                    srcset="./images-vegetables/carrotEggplantDecktop1x.jpg, ./images-vegetables/carrotEggplantDecktop2x.jpg"
+                                    type="image/jpg">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images-vegetables/carrotEggplantTablet1x.jpg, ./images-vegetables/carrotEggplantTablet2x.jpg"
+                                    type="image/jpg">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images-vegetables/carrotEggplantMobil1x.jpg, ./images-vegetables/carrotEggplantMobil2x.jpg"
+                                    type="image/jpg">
+                                <img src="./images-vegetables/carrotEggplantDecktop.jpg" alt="bloc" width="282"
+                                    height="243" class="vegetables-images">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="vegetables-item">
                         <div class="vegetables-cont-text">
-                            <h3 class="vegetables-sabtitle">leek</h3>
-                            <p class="vegetables-item-text">50 UAH / kg</p>                
-                       </div>
-                          <div class="vegetables-list-img-wrapper">
-                             <picture>
-                               <source media="(min-width: 1280px)" srcset="./images-vegetables/carrotLeekDecktop1x.jpg, ./images-vegetables/carrotLeekDecktop2x.jpg" type="image/jpg">
-                               <source media="(min-width: 768px)" srcset="./images-vegetables/carrotLeekTablet1x.jpg, ./images-vegetables/carrotLeekTablet2x.jpg" type="image/jpg">
-                               <source media="(max-width: 767px)" srcset="./images-vegetables/carrotLeekMobil1x.jpg, ./images-vegetables/carrotLeekMobil2x.jpg" type="image/jpg">
-                               <img src="./images-vegetables/carrotLeekDecktop.jpg" alt="leek" width="282" height="243" class="vegetables-images">
-                             </picture>
-                          </div>                        
-                       </li>
-                       <li class="vegetables-item">
+                            <h3 class="vegetables-sabtitle">морскі рибки-marine fich</h3>
+                            <p class="vegetables-item-text">0.3 грн / шт</p>
+                        </div>
+                        <div class="vegetables-list-img-wrapper">
+                            <picture>
+                                <source media="(min-width: 1280px)"
+                                    srcset="./images-vegetables/carrotLeekDecktop1x.jpg, ./images-vegetables/carrotLeekDecktop2x.jpg"
+                                    type="image/jpg">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images-vegetables/carrotLeekTablet1x.jpg, ./images-vegetables/carrotLeekTablet2x.jpg"
+                                    type="image/jpg">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images-vegetables/carrotLeekMobil1x.jpg, ./images-vegetables/carrotLeekMobil2x.jpg"
+                                    type="image/jpg">
+                                <img src="./images-vegetables/carrotLeekDecktop.jpg" alt="sea snack" width="282"
+                                    height="243" class="vegetables-images">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="vegetables-item">
                         <div class="vegetables-cont-text">
-                            <h3 class="vegetables-sabtitle">mushrooms</h3>
-                            <p class="vegetables-item-text">40 UAH / kg</p>                
-                       </div>
-                          <div class="vegetables-list-img-wrapper">
-                             <picture>
-                               <source media="(min-width: 1280px)" srcset="./images-vegetables/carrotMushroomsDecktop1x.jpg, ./images-vegetables/carrotMushroomsDecktop2x.jpg" type="image/jpg">
-                               <source media="(min-width: 768px)" srcset="./images-vegetables/carrotMuschroomsTablet1x.jpg, ./images-vegetables/carrotMuschroomsTablet2x.jpg" type="image/jpg">
-                               <source media="(max-width: 767px)" srcset="./images-vegetables/carrotMuschroomsMobil1x.jpg, ./images-vegetables/carrotMuschroomsMobil2x.jpg" type="image/jpg">
-                               <img src="./images-vegetables/carrotMushroomsDecktop.jpg" alt="mushrooms" width="282" height="243" class="vegetables-images">
-                             </picture>
-                          </div>                        
-                       </li>
-                       <li class="vegetables-item">
+                            <h3 class="vegetables-sabtitle">річні рибки-annual fish</h3>
+                            <p class="vegetables-item-text">0.3 грн / шт</p>
+                        </div>
+                        <div class="vegetables-list-img-wrapper">
+                            <picture>
+                                <source media="(min-width: 1280px)"
+                                    srcset="./images-vegetables/carrotMushroomsDecktop1x.jpg, ./images-vegetables/carrotMushroomsDecktop2x.jpg"
+                                    type="image/jpg">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images-vegetables/carrotMuschroomsTablet1x.jpg, ./images-vegetables/carrotMuschroomsTablet2x.jpg"
+                                    type="image/jpg">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images-vegetables/carrotMuschroomsMobil1x.jpg, ./images-vegetables/carrotMuschroomsMobil2x.jpg"
+                                    type="image/jpg">
+                                <img src="./images-vegetables/carrotMushroomsDecktop.jpg" alt="reva snack" width="282"
+                                    height="243" class="vegetables-images">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="vegetables-item">
                         <div class="vegetables-cont-text">
-                            <h3 class="vegetables-sabtitle">corn</h3>
-                            <p class="vegetables-item-text">60 UAH / kg</p>                
-                       </div>
-                          <div class="vegetables-list-img-wrapper">
-                             <picture>
-                               <source media="(min-width: 1280px)" srcset="./images-vegetables/carrotCornDecktop1x.jpg, ./images-vegetables/carrotCornDecktop2x.jpg" type="image/jpg">
-                               <source media="(min-width: 768px)" srcset="./images-vegetables/carrotCornTablet1x.jpg, ./images-vegetables/carrotCornTablet2x.jpg" type="image/jpg">
-                               <source media="(max-width: 767px)" srcset="./images-vegetables/carrotCornMobil1x.jpg, ./images-vegetables/carrotCornMobil2x.jpg" type="image/jpg">
-                               <img src="./images-vegetables/carrotCornDecktop.jpg" alt="corn" width="282" height="243" class="vegetables-images">
-                             </picture>
-                          </div>                        
-                       </li>
-                       <li class="vegetables-item">
+                            <h3 class="vegetables-sabtitle">річні рибки-annual fish</h3>
+                            <p class="vegetables-item-text">0.3 грн / шт</p>
+                        </div>
+                        <div class="vegetables-list-img-wrapper">
+                            <picture>
+                                <source media="(min-width: 1280px)"
+                                    srcset="./images-vegetables/carrotCornDecktop1x.jpg, ./images-vegetables/carrotCornDecktop2x.jpg"
+                                    type="image/jpg">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images-vegetables/carrotCornTablet1x.jpg, ./images-vegetables/carrotCornTablet2x.jpg"
+                                    type="image/jpg">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images-vegetables/carrotCornMobil1x.jpg, ./images-vegetables/carrotCornMobil2x.jpg"
+                                    type="image/jpg">
+                                <img src="./images-vegetables/carrotCornDecktop.jpg" alt="reva snack" width="282"
+                                    height="243" class="vegetables-images">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="vegetables-item">
                         <div class="vegetables-cont-text">
-                            <h3 class="vegetables-sabtitle">sweet potatoes</h3>
-                            <p class="vegetables-item-text">50 UAH / kg</p>                
-                       </div>
-                          <div class="vegetables-list-img-wrapper">
-                             <picture>
-                               <source media="(min-width: 1280px)" srcset="./images-vegetables/carrotPotatoDecktop1x.jpg, ./images-vegetables/carrotPotatoDecktop2x.jpg" type="image/jpg">
-                               <source media="(min-width: 768px)" srcset="./images-vegetables/carrotPotatoTablet1x.jpg, ./images-vegetables/carrotPotatoTablet2x.jpg" type="image/jpg">
-                               <source media="(max-width: 767px)" srcset="./images-vegetables/carrotPotatoMobil1x.jpg, ./images-vegetables/carrotPotatoMobil2x.jpg" type="image/jpg">
-                               <img src="./images-vegetables/carrotPotatoDecktop.jpg" alt="potato" width="282" height="243" class="vegetables-images">
-                             </picture>
-                          </div>                        
-                       </li>
-                       <li class="vegetables-item">
+                            <h3 class="vegetables-sabtitle">м'ясні закуски-meat delicacies</h3>
+                            <p class="vegetables-item-text">0.3 грн / шт</p>
+                        </div>
+                        <div class="vegetables-list-img-wrapper">
+                            <picture>
+                                <source media="(min-width: 1280px)"
+                                    srcset="./images-vegetables/carrotPotatoDecktop1x.jpg, ./images-vegetables/carrotPotatoDecktop2x.jpg"
+                                    type="image/jpg">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images-vegetables/carrotPotatoTablet1x.jpg, ./images-vegetables/carrotPotatoTablet2x.jpg"
+                                    type="image/jpg">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images-vegetables/carrotPotatoMobil1x.jpg, ./images-vegetables/carrotPotatoMobil2x.jpg"
+                                    type="image/jpg">
+                                <img src="./images-vegetables/carrotPotatoDecktop.jpg" alt="meat snack" width="282"
+                                    height="243" class="vegetables-images">
+                            </picture>
+                        </div>
+                    </li>
+                    <li class="vegetables-item">
                         <div class="vegetables-cont-text">
-                            <h3 class="vegetables-sabtitle">carrot</h3>
-                            <p class="vegetables-item-text">40 UAH / kg</p>                
-                       </div>
-                          <div class="vegetables-list-img-wrapper">
-                             <picture>
-                               <source media="(min-width: 1280px)" srcset="./images-vegetables/carrotCarrotDecktop1x.jpg, ./images-vegetables/carrotCarrotDecktop2x.jpg" type="image/jpg">
-                               <source media="(min-width: 768px)" srcset="./images-vegetables/carrotCarrotTablet1x.jpg, ./images-vegetables/carrotCarrotTablet2x.jpg" type="image/jpg">
-                               <source media="(max-width: 767px)" srcset="./images-vegetables/carrotCarrotMobil1x.jpg, ./images-vegetables/carrotCarrotMobil2x.jpg" type="image/jpg">
-                               <img src="./images-vegetables/carrotCarrotDecktop.jpg" alt="carrot" width="282" height="243" class="vegetables-images">
-                             </picture>
-                          </div>                        
-                       </li>                  
-               </ul>
-       </div>
-       </section>
-</main>
+                            <h3 class="vegetables-sabtitle">Рулон(roll) meat delicacies</h3>
+                            <p class="vegetables-item-text">150 грн / kg</p>
+                        </div>
+                        <div class="vegetables-list-img-wrapper">
+                            <picture>
+                                <source media="(min-width: 1280px)"
+                                    srcset="./images-vegetables/carrotCarrotDecktop1x.jpg, ./images-vegetables/carrotCarrotDecktop2x.jpg"
+                                    type="image/jpg">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images-vegetables/carrotCarrotTablet1x.jpg, ./images-vegetables/carrotCarrotTablet2x.jpg"
+                                    type="image/jpg">
+                                <source media="(max-width: 767px)"
+                                    srcset="./images-vegetables/carrotCarrotMobil1x.jpg, ./images-vegetables/carrotCarrotMobil2x.jpg"
+                                    type="image/jpg">
+                                <img src="./images-vegetables/carrotCarrotDecktop.jpg" alt="meat snack babin"
+                                    width="282" height="243" class="vegetables-images">
+                            </picture>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!--Footer-->
+
+    <footer class="footer-section">
+
+        <div class="container footer-container" style>
+            <div class="footer-logo-cont">
+
+                <a class="footer-link" href="./index.html"><span class="footer-logo-color">Упаковка</span>Snack</a>
+                <p class="footer-text">Розпродаж упаковки під снеки оптом, якіст ДСТУ, зручне легке пакування та
+                    фасування</p>
+
+            </div>
+
+            <div class="social-media-conteiner">
+                <p class="sab-title-footer">Social media</p>
+
+                <ul class="icon-group-footer-link">
+
+                    <li class="icon-li-fot-list">
+                        <a class="icon-fot-link" href="icon-instagram">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-instagram-2"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-li-fot-list">
+                        <a class="icon-fot-link" href="icon-twitter">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-twitter-1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-li-fot-list">
+                        <a class="icon-fot-link" href="icon-Fesbok">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-Fes-Vector"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="icon-li-fot-list">
+                        <a class="icon-fot-link" href="icon-Laikedin">
+                            <svg class="footer-icon" width="24" height="24">
+                                <use href="./images/icons.svg#icon-linkedin1"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <!--Footer Modal dacdrop-->
+
+            <div class="dacdrop-footer">
+                <p class="modal-sabtitle-footer">Subscribe</p>
+                <form class="modal-form-footer">
+                    <label for="E-mail" class="modal-label-footer">
+                        <input name="email-footer-modal" type="email" class="modal-input-footer" placeholder="E-mail"
+                            id="E-mail">
+                    </label>
+                    <button type="submit" class="button-modal-footer">Subscribe<svg class="button-icon-footer"
+                            width="24" height="24">
+                            <use href="./images/icons.svg#icon-icon-send"></use>
+                        </svg></button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!--Modal dacdrop-->
+    <div class="dacdrop">
+        <div class="modal">
+            <button type="button" class="but-modal-close">
+                <svg class="button-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-VectorX"></use>
+                </svg>
+            </button>
+            <p class="modal-sabtitle"> Leave your contacts and we will call you back</p>
+            <form class="modal-form">
+                <div class="modal-field">
+                    <label for="user-name" class="modal-label">Name</label>
+                    <div class="modal-input-wrap">
+                        <input type="text" name="user-name" class="modal-input" required id="user-name">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-VectorMan"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="user-tel" class="modal-label">Phone</label>
+                    <div class="modal-input-wrap">
+                        <input type="tel" name="Phone" class="modal-input" required id="user-tel">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-VectorPhone"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field">
+                    <label for="user-email" class="modal-label">Email</label>
+                    <div class="modal-input-wrap">
+                        <input type="email" name="Email" class="modal-input" required id="user-email">
+                        <svg class="modal-icon" width="18" height="24">
+                            <use href="./images/icons.svg#icon-VectorV"></use>
+                        </svg>
+                    </div>
+                </div>
+                <div class="modal-field-comment">
+                    <label for="user-comment" class="modal-label">Comment</label>
+                    <textarea id="user-comment" name="user-comment" placeholder="Text input"
+                        class="textarea-user-comment"></textarea>
+                </div>
+                <div class="privacy-container">
+                    <input type="checkbox" id="user-privacy" value="true" name="user-privacy"
+                        class="modal-input-privacy visually-hidden">
+
+                    <label for="user-privacy" class="modal-label-privacy">
+                        <span class="modal-label-privacy-spsan">
+                            <svg class="modal-icon-us-pr" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span>I accept the terms and conditions of the<a class="link-privacy-container">Privacy
+                            Policy</a></label>
+                </div>
+                <button type="button" class="button-modal-send-close">Send</button>
+
+            </form>
+        </div>
+
 
 </body>
+
 </html>
-
-<!--Footer-->
-
-<<!--footer class="footer-section">
-   
-<div class="container footer-container" style>
-       <div class="footer-logo-cont">
-           
-               <a class="footer-link" href="./index.html"><span class="footer-logo-color">Web</span>Studio</a>
-               <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>    
-           
-       </div>
-       
-   <div class="social-media-conteiner">
-       <p class="sab-title-footer">Social media</p>
-                                 
-      <ul class="icon-group-footer-link">
-                                        
-       <li class="icon-li-fot-list">
-            <a class="icon-fot-link" href="icon-instagram">
-            <svg class="footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-instagram-2"></use>
-            </svg> 
-           </a>
-       </li>
-          <li class="icon-li-fot-list">
-               <a class="icon-fot-link" href="icon-twitter">                                                                
-                    <svg class="footer-icon" width="24" height="24">
-                        <use href="./images/icons.svg#icon-twitter-1"></use>
-                    </svg>    
-               </a>   
-          </li>                     
-       <li class="icon-li-fot-list">
-           <a class="icon-fot-link" href="icon-Fesbok">
-                <svg class="footer-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-Fes-Vector"></use>
-                </svg>
-           </a>
-       </li>
-      <li class="icon-li-fot-list">
-           <a class="icon-fot-link" href="icon-Laikedin">
-                <svg class="footer-icon" width="24" height="24">
-                    <use href="./images/icons.svg#icon-linkedin1"></use>
-                </svg>
-           </a>
-      </li>                 
-      </ul>
-      
-   </div>
-
-</footer>
-
-
-
-</body>
-</html>
-  
- 
